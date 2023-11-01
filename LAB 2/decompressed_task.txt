@@ -1,0 +1,42 @@
+Celem ćwiczenia jest zapoznanie się z programami do odzyskiwania skasowanych danych. Do zbadania będą 3 losowo wybrane przykładowe obrazy pamięci oraz jeden z wybranych nośników własnych (np. karta pamięci, pendrive, dysk przenośny).
+
+Ćwiczenie polegać będzie na odzyskaniu skasowanych plików z obrazów pamięci (dysk/pamięć). W tym celu użyć należy 3 z 4 dostępnych programów do wyboru:
+
+    • scalpel
+    • foremost
+    • photorec
+    • recuva
+
+Wymagania wstępne:
+
+    1. Zapoznać się z programami scalpel, foremost, photorec, recuva oraz ich konfiguracją (manuale, google.com)
+        
+    2. Odpowiednio skonfigurować powyższe programy do odzyskiwania:
+        1. Plików graficznych (jpg, gif, tiff, pcx, png)
+        2. Plików dokumentów (pdf, doc, docx, ppt, pptx, xls, xlsx)
+        3. Plików multimedialnych (wav, mp3, avi, mp4, mpg, ogg)
+        4. Plików archiwów (zip, rar, arj, arc itd.)
+
+Odzyskać należy wyżej podane pliki, ale aplikacje konfigurujemy do odzysku „co się da” – proszę sprawdzić, jakie rodzaje plików do odzysku oferują powyższe aplikacje.
+
+
+Przebieg ćwiczenia:
+
+    1. Pobranie wybranych plików z serwera 
+    2. Wykonanie obrazu jednego z własnych nośników 
+    3. Rozpoznanie typów plików (co to za plik i co zawiera, jaki format itd.) - plus podpisanie pliku
+    4. Uruchomienie programu scalpel dla wszystkich plików – zapisanie rezultatów w osobnych katalogach.
+    5. Wygenerowanie hasha dla zawartości tych katalogów (MD5 lub SHA-1 do wyboru)
+    6. Uruchomienie programu foremost dla wszystkich wybranych plików – postępowanie jak wyżej
+    7. Wygenerowanie hasha dla zawartości tych katalogów (jak wyżej)
+    8. Uruchomienie programu photorec dla wszystkich plików i wygenerowanie hashy.
+    9. Porównanie zawartości katalogów dla poszczególnych programów:
+       
+        1. Czy w katalogach odzyskano te same pliki? Który program odtworzył najwięcej?
+        2. Sprawdzenie, czy odzyskane pliki są właściwe: czy zawierają grafikę, dokumenty, multimedia itd.
+        3. Czy udało się odzyskać nazwy (oryginalne) plików? W którym przypadku?
+        4. Wybrać losowo dwa te same odzyskane pliki z dwóch katalogów (programów) i wygenerować hashe. Czy są takie same?
+        5. Który z użytych programów odzyskał najwięcej plików, a który najmniej? W jaki sposób użyte programy odzyskiwały skasowane pliki?
+           
+        6. Porównanie: ilości odzyskanych plików, szybkości działania, właściwego odzyskania plików (czy plik dokumentu jest kompletny? Czy wystąpiły pomyłki przy rozpoznaniu plików?)
+        7. Inne wnioski: czy udało się odzyskać jakieś ciekawe pliki? Jakie?
