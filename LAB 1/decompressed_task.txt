@@ -1,0 +1,40 @@
+https://pwr-edu.zoom.us/j/64388984452?pwd=UndQUjZnRlpUUG0rbzRCcVYvcml2Zz09
+Celem ćwiczenia jest wykonanie binarnej kopii danych z 3 różnych nośników: dysków twardych, pendrive, kart pamięci. 
+
+    • wybór odpowiedniego narzędzia (FTK imager, dd, ddrescue lub inne)
+    • zapoznanie się z możliwościami narzędzia, krótki opis możliwości
+    • wykonanie kopii 1:1 nośnika - dysk twardy z systemem Windows (7, 8 lub 10), dysk Linux, dysk Mac, znaleźć taki o pojemności max ok. 10 GB (stary komputer, laptop itd.)
+    • wykonanie kopii 1:1 nośnika: pendrive (1 – 4 GB)
+    • wykonanie kopii 1:1 karty pamięci: microSD z telefonu, karty z aparatu cyfrowego, kamery
+    • zabezpieczenie i sprawdzenie kopii: wykonanie funkcji skrótu dwa razy (np. SHA-1 i MD5)
+    • wnioski, obserwacje: jaka jest specyfika zapisu danych na dyskach, kartach i pendrive? Jakie są różnice?
+    • Wygenerowanie raportu o użytych narzędziach, wybór najlepszego w zależności od ilości plików, szybkości itd.
+    • Raport w postaci zabezpieczonej hasłem, podpisany funkcją skrótu
+
+Przebieg ćwiczenia:
+
+    1. Komendy i narzędzia do wykonywania kopii binarnych:
+       
+        1. dd, ddrescue, dc3dd, dcfldd: proszę zapoznać się z opisem działania tych komend, możliwościami, funkcjami. Która z tych komend nadaje się najlepiej do tego rodzaju czynności? Jakie dodatkowe funkcje posiadają te komendy? Jakie jeszcze inne komendy mogą służyć do wykonywania kopii binarnych?
+        2. Pobrać program FTK imager z podanego linku. Zapoznać się z jego możliwościami oraz opcjami. Do czego może służyć FTK imager?
+    2. Przygotować 3 różne nośniki: dysk twardy (najlepiej z systemem, może być wbudowany), pendrive oraz kartę SD
+        1. Jakie systemy plików są na tych nośnikach? Podać ich parametry: rodzaj, partycje, nazwę, wielkości (dysku i partycji)
+        2. Gdzie znajdują się informacje o strukturze danych na nośniku? 
+        3. Odczytać informacje o strukturze danych na nośniku. Jakie informacje można uzyskać?
+           
+    3. Za pomocą narzędzi z pkt. 1 wykonać we właściwy sposób kopie binarne dla tych 3 nośników, wygenerować funkcje hash (jakiego rodzaju? Jakie są możliwości w danych narzędziach?).  Zapisać te kopie w sposób bezpieczny
+    4. Analiza danych na wykonanych kopiach
+        1. W jaki sposób można dostać się do danych na wykonanych obrazach nośników? 
+        2. Jak zrobić to w sposób bezpieczny? 
+        3. Odczytać strukturę plików i katalogów w uzyskanych obrazach nośników.
+    5. Wykonać raport zgodnie z zasadami informatyki śledczej:
+        1. Raport powinien zawierać informację o osobach wykonujących
+        2. Data i czas wykonania czynności oraz edycji raportu
+        3. Uzyskane dane o nośnikach, ich parametrach, wielkości, patrycjach, numerach seryjnych (o ile takie są) oraz zdjęć danych nośników
+        4. Użyte narzędzia oraz ich wersje podczas przeprowadzania czynności
+        5. Informacje o komunikatach, ostrzeżeniach lub błędach podczas pracy z narzędziami
+        6. Opis przeprowadzanych czynności
+        7. Otrzymane rezultaty (w danym przypadku: struktura katalogów i plików oraz lista plików)
+        8. Wnioski
+
+Raport dostarczamy w formacie PDF (tylko i wyłącznie), zabezpieczony hasłem „FORENSIC-LAB-1”.
